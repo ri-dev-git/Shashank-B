@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainpage.css">
+    <title>Login UI</title>
+</head>
+<header>
+    <img class="logo" src="logo-social.png" alt="logo">
+    <nav id="nav">
+        <ul class="nav_links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Your Projects</a></li>
+            <li><a href="#">Other Templates</a></li>
+        </ul>
+       
+    </nav>
+</header>
+<body>
+    <div id="wrapper">
+        <div class="canvas" id="canvasId">
+            <div class="outline" draggable="true">
+                <br>
+                <i="false" id="sxyz" class="drag1">
+                    <label for="uname" >
+                        <b>Username</b>
+                    </label>
+                </i>
+                <br>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <br>
+                <br>
+                <i="false" class="drag1"> <label for="psw">
+                    <b>Password</b>
+                </label>
+                </i><br>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <br>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div id="fall">
+            <div id="or">
+                <h4>or</h4>
+            </div>
+                <div class="outline" draggable="true" >
+                    <br>
+                    <br>
+                    <a class="drag1" id="drag2"><label for="mobilephone">Mobile Number</label></a>
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Enter Mobile Number">
+                </div>
+            </div>
+        <div >
+            <button id="login">
+                Login
+            </button><br><a href="  " style="color:#00000075;font-size: 13px;">
+                New User?Sign up</a>
+            </div>
+        </div>
+        <div id="left_container">
+            <div>
+                <ul class="ui_interface">
+                <div id="email">
+                    <li >Add Email Tab <input type="checkbox" id="checked1" checked="true"></li>
+                </div>
+                <div id="mobile">
+                    <li>Add Mobile Number Tab<input type="checkbox" id="unchecked" onclick="myFunction();heightChange()" ></li>
+                </div>
+                
+                </ul>
+            </div>
+        </div>
+        </div> 
+    </div>
+    
+</body>
+<script src="mainpage.js"></script>
+</html>
